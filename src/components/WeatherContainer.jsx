@@ -45,7 +45,7 @@ const WeatherContainer = ({ weather }) => {
                 </article>
             </div>
 
-            <button className=" bg-slate-50 py-2 rounded-2xl font-extrabold" onClick={handleChangeUnit}>°C / °F</button>
+            <button className=" bg-slate-50 py-2 rounded-2xl font-extrabold w-24 mx-auto" onClick={handleChangeUnit}>°C / °F</button>
         </section>
     )
 }
